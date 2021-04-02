@@ -1,0 +1,268 @@
+*{margin: 0px; padding: 0px; word-spacing: 5px;}
+h1 {
+	background:   #2F4F4F;
+	color: white;
+	text-align: center;
+}
+
+h4  {
+	text-align: center;
+}
+h5 {
+  text-align: center;
+  font-style: italic;
+  margin: 5px;
+  background: white;
+}
+h2 {
+ font-family: 'Pangolin', cursive;"
+}
+p {
+  font-family: 'Handlee', cursive;
+  font-size: 23px;
+
+}
+
+
+body {
+	font-size: 20px;
+	background-image: url( https://cdn.hipwallpaper.com/i/63/16/LwIbXj.jpg);
+	opacity: 2;
+
+	
+}
+.para {
+ padding: 20px;
+}
+.para:hover {
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.row1 {
+  display: flex;
+}
+
+.column1 {
+  flex: 25%;
+  padding: 60px;
+}
+.row2 {
+  display: flex;
+
+}
+
+.column2 {
+  flex: 50%;
+  padding: 130px;
+}
+.navbar  {
+  text-align: center;
+  word-spacing: 10px;
+  overflow: hidden;
+  background-color: #333;
+  font-family: 'Cinzel', serif;
+  margin: 8px;
+
+
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+.navbar .search-container {
+  float: right;
+}
+
+.navbar , .searchs {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.navbar .search-container .button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar .search-container .button:hover {
+  background: #ccc;
+}
+  .dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: 'Cinzel', serif; 
+  margin: 0; 
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:black;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content .header {
+  background: #2F4F4F;
+  padding: 16px;
+  color: white;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background-color: white;
+  height: 250px;
+}
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.column a:hover {
+  background-color: #ddd;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.navbar-left {
+  float: left;
+}
+.navbar-right {
+  float: right;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.day {
+  word-spacing: 10px;
+}
+
+.footer {
+  background: black;
+  color: white;
+}
+.display-left , .display-right {
+  align-items: center;
+}
+/*.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}*/
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+* {box-sizing: border-box}
+.formContainer input[type=text], input[type=password] {
+   width: 100%;
+   font-size: 20px;
+   padding: 15px;
+   margin: 5px 0 22px 0;
+   display: inline-block;
+   border: none;
+   background: #f1f1f1;
+}
+label{
+   font-size: 15px;
+}
+.formContainer input[type=text]:focus, input[type=password]:focus {
+   background-color: #ddd;
+   outline: none;
+}
+hr {
+   border: 1px solid #f1f1f1;
+   margin-bottom: 25px;
+}
+.signup {
+   font-size: 20px;
+   font-weight: bold;
+   background-color: rgb(10, 119, 13);
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 50%;
+   opacity: 0.9;
+}
+.signup:hover {
+   opacity:1;
+}
+.formContainer {
+   padding: 16px;
+   
+
+}
+.formContainer p{
+   font-size: 20px;
+}
+.footer-scl a .fa{color:#fff; font-size: 15px;}
+.footer-scl a{padding:5px 10px; text-decoration: none;}
+
+
+a{text-decoration: none !important;}
+a:hover{text-decoration: none !important;}
+a:focus{text-decoration: none !important;}

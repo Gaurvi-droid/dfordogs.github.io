@@ -1,0 +1,311 @@
+*{margin: 0px; padding: 0px; word-spacing: 5px;}
+body {
+	
+	font-size: 20px;
+	
+	background-image: url( https://cdn.hipwallpaper.com/i/63/16/LwIbXj.jpg);
+	opacity: 2;
+}
+h1 {
+	background:  #2F4F4F;
+	color: white;
+	text-align: center;
+  font-family: 'Cinzel', serif;"
+	 
+
+}
+h5 {
+	text-align: center;
+	font-style: italic;
+  margin: 5px;
+	background: white;
+  font-family: 'Cinzel', serif;"
+}
+p {
+  font-family: 'Handlee', cursive;
+  font-size: 23px;
+}
+h2  {
+  font-family: 'Pangolin', cursive;
+}
+h3  {
+  font-family: 'Pangolin', cursive;
+}
+
+.navbar  {
+	text-align: center;
+	word-spacing: 10px;
+	 overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  margin: 8px;
+  font-family: 'Cinzel', serif;"
+
+
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  }
+.navbar .search-container {
+  float: right;
+}
+
+.navbar , .searchs {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.navbar .search-container .button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar .search-container .button:hover {
+  background: #ccc;
+}
+  .dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: 'Cinzel', serif;
+  margin: 0; 
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:black;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content .header {
+  background: #2F4F4F;
+  padding: 16px;
+  color: white;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background-color: white;
+  height: 250px;
+}
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.column a:hover {
+  background-color: #ddd;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.navbar-left {
+	float: left;
+}
+.navbar-right {
+	float: right;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.day {
+  word-spacing: 10px;
+}
+
+.footer {
+  background: black;
+  color: white;
+}
+.display-left , .display-right {
+  align-items: center;
+}
+#fname, #lname , #contact, select, textarea{
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  
+}
+
+/* Style the label to display next to the inputs */
+.label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+
+}
+
+/* Style the submit button */
+.submit {
+  background-color: #333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  text-align: center;
+  font-family: 'Handlee', cursive;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.heading {
+	text-align: center;
+	font-size: 70px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+* {box-sizing: border-box}
+.mail, input[type=password] {
+   width: 100%;
+   font-size: 20px;
+   padding: 15px;
+   margin: 5px 0 22px 0;
+   display: inline-block;
+   border: none;
+   background: #f1f1f1;
+}
+.email , .password , .repeat{
+   font-size: 15px;
+}
+.mail:focus, input[type=password]:focus {
+   background-color: #ddd;
+   outline: none;
+}
+hr {
+   border: 1px solid #f1f1f1;
+   margin-bottom: 25px;
+}
+.signup {
+   font-size: 20px;
+   font-weight: bold;
+   background-color: rgb(10, 119, 13);
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 50%;
+   opacity: 0.9;
+}
+.signup:hover {
+   opacity:1;
+}
+.formContainer {
+   padding: 16px;
+   
+
+}
+.formContainer p{
+   font-size: 20px;
+}
+.footer-scl a .fa{color:#fff; font-size: 15px;}
+.footer-scl a{padding:5px 10px; text-decoration: none;}
+
+
+a{text-decoration: none !important;}
+a:hover{text-decoration: none !important;}
+a:focus{text-decoration: none !important;}
